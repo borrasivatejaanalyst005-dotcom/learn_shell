@@ -14,5 +14,7 @@
  elif [$marks -lt 70]; then
  echo "first class"
  else
- echo "distinction""
+ echo "distinction"
  fi
+
+ echo "end"
