@@ -12,7 +12,7 @@ fi
 
 mkdir -p $logs_folder
 
-echo "script started excuetion at ${date + "%f %T"}"
+echo "script started excuetion at $(date + "%F %T")"
 
 validate() {
     if [ $1 -ne 0 ]; then
@@ -32,5 +32,5 @@ validate $? "nginx installation"
 dnf install mysql -y &>> $logs_file
 validate $? "mysql installation"
 
-echo "script started excuetion is completed  ${date + "%f %T"}"
+echo "script started excuetion is completed  $(date + "%F %T")"
 
