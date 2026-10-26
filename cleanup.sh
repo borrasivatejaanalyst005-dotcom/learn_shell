@@ -18,3 +18,7 @@ fi
 if [ ! -d "$source_dir" ]; then
 echo "error:: $source_dir does not exist"
 fi
+
+
+echo "scanning files older than $days in $source_dir"
+files_to_delete
