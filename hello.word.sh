@@ -1,1 +1,3 @@
-#!/bin/bas
+#!/bin/bash
+
+echo "hello,good afternoon"
