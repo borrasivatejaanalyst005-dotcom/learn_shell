@@ -1,7 +1,7 @@
 #! /bin/bash
 
  disk_usage=$(df -hT | tail -n +2)
- usage_threshold=20
+ usage_threshold=1
 
 while IFS= read -r line
 do
