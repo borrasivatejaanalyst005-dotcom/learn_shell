@@ -1,6 +1,6 @@
 #!  /bin/bash
 
-to-team=$1
+team_name=$1
 server_ip=$2
 alert_type=$3
 message=$4
